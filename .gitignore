@@ -1,0 +1,19 @@
+# Generated files, ROMs and private evidence never belong in a source release.
+build*/
+**/build*/
+**/__pycache__/
+*.nes
+*.fds
+*.unf
+*.unif
+*.zip
+*.exe
+*.dll
+*.obj
+*.o
+*.lib
+*.a
+*.log
+PRIVATE*/
+evidence*/
+runs/

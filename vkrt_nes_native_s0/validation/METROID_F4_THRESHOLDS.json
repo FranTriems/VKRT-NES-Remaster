@@ -1,0 +1,72 @@
+{
+  "schema": "vkrt.nes.metroid_f4_thresholds.v1",
+  "baseline_source_head": "831e03987195b1eda167145ca731560e8fac2f1d",
+  "baseline_receipt_sha256": "7c5ce79e7a1e4164dc81a91ead069a7379bad1bd235115669ba5e7f5e557ebfc",
+  "baseline_renderer": "unmodified retained R5.2; 512x480; GNU 15.2 Release",
+  "baseline_measurements": [
+    {
+      "frame": 180,
+      "f1_sha256": "19890b6978f5c1ae27ea9fd43b7b39584ad751b104d23a1bf626de7234fe6000",
+      "baseline_sha256": "47e54fcb82d2225a0e81f80f8527d875b7e3a29e3f20c869412678d2f888681a",
+      "different_pixels": 89315,
+      "mean_abs_channel_delta": 4.55266,
+      "median_ms": 3.0413
+    },
+    {
+      "frame": 340,
+      "f1_sha256": "bb4581edd92e921c589203f8855a9ea0391145280c8970fb60d87221c7e318e6",
+      "baseline_sha256": "4687b9f4a9485cd3e6281b91565b84d2602b426f4dea790a0c25038391aaf364",
+      "different_pixels": 1592,
+      "mean_abs_channel_delta": 0.243907,
+      "median_ms": 2.8566
+    },
+    {
+      "frame": 600,
+      "f1_sha256": "59685ba00d08d7f797c2a6dbe5bed96696758ed8253d57a9112bd12ae0984bbe",
+      "baseline_sha256": "214da28e66f61e4c0d02a6a439a367d5c5dac6d08654d957aa2edc8dd0d96d72",
+      "different_pixels": 51991,
+      "mean_abs_channel_delta": 4.41654,
+      "median_ms": 2.8657
+    },
+    {
+      "frame": 820,
+      "f1_sha256": "f9940a5e356d3659d6e478b749c80c8328d2ff62320a147b9e16dcd863710db0",
+      "baseline_sha256": "d3f6529cc424c0fa70b1e4e15f984500430fb2f6fcf755527818b0883fe5dc28",
+      "different_pixels": 53074,
+      "mean_abs_channel_delta": 4.61921,
+      "median_ms": 2.9027
+    },
+    {
+      "frame": 1000,
+      "f1_sha256": "85d59c8cdd3994eb4c61a6387ff2c12d4f1bddeba7d681429398e4a500e2f29d",
+      "baseline_sha256": "8a6c7f70af66b245181b458447861a4b98bb2321eabbb4682b5fa641d567fc05",
+      "different_pixels": 53406,
+      "mean_abs_channel_delta": 4.65758,
+      "median_ms": 2.916
+    }
+  ],
+  "baseline_distribution": {
+    "different_pixels_min": 1592,
+    "different_pixels_max": 89315,
+    "mean_channel_delta_min": 0.243907,
+    "mean_channel_delta_max": 4.65758,
+    "shade_median_ms_min": 2.8566,
+    "shade_median_ms_max": 3.0413
+  },
+  "exact_gates": {
+    "canonical_digest_mismatches": 0,
+    "coverage_xor_pixels": 0,
+    "owner_mismatch_pixels": 0,
+    "replay_byte_mismatches": 0,
+    "f1_baseline_hash_mismatches": 0,
+    "retained_baseline_hash_mismatches": 0,
+    "steady_geometry_rebuilds": 0
+  },
+  "task_contract_minimum": {
+    "actual_checkpoints": 3,
+    "nonidentical_checkpoints": 2
+  },
+  "perceptual_improvement_threshold": null,
+  "perceptual_acceptance": "Inspect F1/baseline/F4 and diagnostic distributions; human adjudication required. Pixel difference is not a quality score.",
+  "performance_acceptance": "Report paired local timings, no fabricated universal performance threshold."
+}
