@@ -42,7 +42,9 @@ history. No new external documentation, source dump, emulator or ROM database
 was consulted. Digital M2/address event ordering is explicit and independently
 stimulated by synthetic tests; it is not a measured analog model. The authorized
 operator ROM is used only after those synthetic gates pass, as a bounded external
-behavioral witness. See `MMC3_ARCHITECTURE_SEAM.md` and `M1_LOCAL_VALIDATION.md`.
+behavioral witness. The historical MMC3 seam and M1 validation documents are
+not included in this source-only export. Public evidence is limited to the retained
+M1 contract and synthetic tests.
 
 ## M2 validation provenance
 

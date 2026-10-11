@@ -258,8 +258,8 @@ uniform integer scaling; HD supports noninteger scales. Disabled temporal/neural
 rungs throw rather than silently falling back. Neural policy grants no geometry,
 silhouette, HUD/text, or low-frequency authority, even in its future seam.
 1024x960 is explicitly covered by all three modes and is the debug default;
-existing render defaults remain 768x720. See the
-[M4-R evidence contract](docs/M4R_REMASTER_EVIDENCE_CONTRACT.md).
+existing render defaults remain 768x720. The historical M4-R evidence
+contract is not included in this source-only distribution.
 
 ## Audio and deterministic state
 
@@ -316,5 +316,6 @@ are emitted. The runner has no identity allowlist or title-specific behavior.
 The implementation is isolated in `modern_plan.cpp`, `modern_assets.cpp` and
 `modern_render.cpp`. The original Semantic HD renderer remains the structural
 raster and zero-control fallback. No presentation data feeds the machine.
-See [the M4-R2 contract](docs/M4R2_MODERN_MATERIAL_CONTRACT.md) for exact owner,
-depth, asset replacement, control, diagnostic and deterministic test boundaries.
+The detailed historical M4-R2 contract is not included in this source-only
+repository. Its owner, depth, asset replacement, control, diagnostic, and test
+boundaries remain historical claims; the current source and tests are included.

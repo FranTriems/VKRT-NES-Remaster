@@ -3,7 +3,8 @@
 The M4-R task binds promoted M3 parent `9106f25d870fc5481b698aaadc25bf517967cad5`.
 Historical milestone claims below retain their original qualification. M4-R adds
 no hardware compatibility or promotion claim; its local presentation evidence is
-recorded in [the M4-R contract](docs/M4R_REMASTER_EVIDENCE_CONTRACT.md).
+described in a private M4-R evidence contract not included in this source-only
+repository.
 
 Maximum candidate claim, conditional on every independent runner gate passing:
 
@@ -17,7 +18,8 @@ on the complete source/build/synthetic/authorized-ROM/evidence gates, is:
 
 The local M1 candidate executed the authorized witness for 600 released-controller
 frames in two processes. This is a bounded boot/title-animation witness, not a
-playthrough. Exact identity and measurements are in `docs/M1_LOCAL_VALIDATION.md`.
+playthrough. The original M1 local-validation file is not part of this
+source-only distribution; its ROM identity and measurements are not reproduced here.
 The local evidence gate does not promote source or replace independent adjudication.
 
 Local evidence can establish the synthetic NROM CPU reference, deterministic
@@ -140,4 +142,5 @@ remains separate from automated activity and invariance checks.
 It does not claim physically correct materials, recovered true 3D geometry,
 universal semantic understanding, neural generation, temporal reconstruction,
 photorealism or full commercial-game compatibility. No commercial artwork or
-third-party runtime dependency is added. See the [M4-R2 contract](docs/M4R2_MODERN_MATERIAL_CONTRACT.md).
+third-party runtime dependency is added. The historical M4-R2 contract is
+not included in this source-only distribution.
