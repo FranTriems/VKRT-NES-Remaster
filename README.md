@@ -1,3 +1,10 @@
+██╗   ██╗██╗  ██╗██████╗ ████████╗
+██║   ██║██║ ██╔╝██╔══██╗╚══██╔══╝
+██║   ██║█████╔╝ ██████╔╝   ██║
+╚██╗ ██╔╝██╔═██╗ ██╔══██╗   ██║
+ ╚████╔╝ ██║  ██╗██║  ██║   ██║
+  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
+
 # VKRT NES Remaster
 
 Native NES emulation and observation-driven visual remastering in C++20. An independent source distribution of the VKRT NES product, authored by **Francisco Triemstra (VKRT)**. This repository is **not** the private VKRT software factory and contains none of its Git history or engineering control-plane components.
