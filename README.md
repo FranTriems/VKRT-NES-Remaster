@@ -20,7 +20,7 @@ The CPU, PPU, APU, cartridge/mapper, controller and timing state are authoritati
 
 ## Windows application
 
-The Windows frontend provides a Home screen, ROM selection, audio and input facilities. The current user-facing presentation choices are **Original / F1** and **Remaster / F4**. Prior F2/F3 rendering experiments are not additional supported user modes. Remaster uses semantic observation and bounded presentation methods, not external commercial artwork. One Metroid-specific visual profile can be selected from a ROM fingerprint; this distribution includes no Metroid ROM, artwork or soundtrack.
+The Windows frontend provides a Home screen, ROM selection, audio and input facilities. The current user-facing presentation choices are **Original / F1** and **Remaster / F4**. Prior F2/F3 rendering experiments are not additional supported user modes. Remaster uses semantic observation and bounded presentation methods, not external commercial artwork. One Metroid-specific visual profile can be selected from a ROM fingerprint; this distribution includes no Metroid ROM, artwork or soundtrack. Games tesed: Metroid, Super Mario Bros. 3 and Ninja Gaiden 3.
 
 Keyboard settings, optional XInput navigation and persistence have bounded automated coverage. A complete real-device/audio/playability acceptance test and compatibility survey are not implied by passing CTest. This is not a claim of universal, cycle-perfect or all-game compatibility.
 
